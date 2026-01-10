@@ -1,6 +1,11 @@
-h3 {
-  text-align: center;
-  margin: 40px;}
+h4 {
+  max-width: 420px;
+  margin: 20px auto 40px;
+  padding: 14px 20px;
+  background-color: rgba(255, 255, 255, 0.397);
+  border-radius: 16px;
+  font-size: 14px;
+}
 
 body {
   text-align: center;
@@ -33,13 +38,4 @@ button:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 15px rgba(0,0,0,0.15);
   transition: 0.2s;
-}
-
-h4 {
-  max-width: 420px;
-  margin: 20px auto 40px;
-  padding: 14px 20px;
-  background-color: rgba(255, 255, 255, 0.397);
-  border-radius: 16px;
-  font-size: 14px;
 }
