@@ -1,0 +1,36 @@
+h3 {
+  text-align: center;
+  margin: 40px;}
+
+body {
+  text-align: center;
+  font-family: "Pretendard", sans-serif;
+  background: linear-gradient(180deg,#ffe7f4, #dce4ff);
+  padding: 20px;
+}
+
+.check-group {
+  display: inline-block;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+button {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(135deg, rgb(255, 189, 189), #ce7aff);
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #ff5fbf, #7b6dff);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  transition: 0.2s;
+}
